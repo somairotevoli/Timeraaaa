@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:paddingLeft="@dimen/activity_horizontal_margin"
+	android:paddingRight="@dimen/activity_horizontal_margin"
+	android:paddingTop="@dimen/activity_vertical_margin"
+	android:paddingBottom="@dimen/activity_vertical_margin"
+	app:layout_behavior="@string/appbar_scrolling_view_behavior"
+	tools:showIn="@layout/app_bar_main"
+	tools:context=".MainActivity"
+	android:background="@drawable/carbon2a"
+	android:focusableInTouchMode="false">
+
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_weight="2">
+
+
+
+			<RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2">
+
+				<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width="265dp"
+					android:layout_height="265dp"
+					android:layout_centerInParent="true">
+
+					<ImageView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:src="@drawable/target"
+						android:id="@+id/imageView13"
+						android:layout_weight="1" />
+
+                </LinearLayout>
+
+				<com.mikhaellopez.circularprogressbar.CircularProgressBar
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+                    app:cpb_background_progressbar_width="55dp"
+                    app:cpb_progressbar_width="55dp"
+android:layout_weight="1"
+android:layout_gravity="center"
+android:layout_centerInParent="true"
+android:id="@+id/cp"
+                    app:cpb_background_progressbar_color="#00000000"
+                    app:cpb_progressbar_color="#99000000" />
+
+				<com.mikhaellopez.circularprogressbar.CircularProgressBar
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+app:cpb_background_progressbar_width="5dp"
+app:cpb_progressbar_width="5dp"
+android:layout_weight="1"
+android:layout_gravity="center"
+android:layout_centerInParent="true"
+android:id="@+id/cp2"
+app:cpb_background_progressbar_color="#00000000"
+app:cpb_progressbar_color="#99000000" />
+
+				<TextView
+        android:id="@+id/tvTimeCount"
+
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:text="35:00"
+        android:elegantTextHeight="false"
+        android:textSize="55sp"
+        android:layout_centerHorizontal="false"
+					android:layout_centerVertical="false"
+                    android:gravity="center"
+                    android:layout_weight="2"
+					android:layout_centerInParent="true"
+					android:textColor="@color/colorAccent2"
+					android:textStyle="bold"
+					android:includeFontPadding="true" />
+            </RelativeLayout>
+		</LinearLayout>
+
+		<LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/ll2"
+			android:layout_weight="3"
+			android:layout_gravity="center"
+			android:layout_centerInParent="false"
+			android:gravity="center">
+
+			<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="85dp"
+    android:id="@+id/imageView"
+    android:src="@drawable/green"
+
+
+                android:layout_alignParentStart="false"
+                android:layout_weight="1"
+                android:layout_alignParentRight="false"
+                android:layout_marginRight="29dp" />
+
+			<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="85dp"
+    android:id="@+id/imageView2"
+    android:src="@drawable/red"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentTop="false"
+                android:longClickable="false"
+                android:layout_centerInParent="false"
+                android:layout_alignWithParentIfMissing="false"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentBottom="false"
+                android:layout_centerVertical="false"
+                android:layout_centerHorizontal="false"
+                android:layout_alignParentRight="false"
+				android:layout_weight="1"
+				android:layout_alignParentEnd="false"
+				android:layout_marginLeft="29dp" />
+        </LinearLayout>
+
+		<LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/ll4"
+			android:layout_alignParentBottom="false"
+			android:layout_weight="3"
+			android:gravity="center">
+
+			<ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:id="@+id/imageView7"
+                android:src="@drawable/targeta"
+                android:baselineAlignBottom="false"
+                android:clickable="false"
+                android:contextClickable="false"
+                android:cropToPadding="false"
+                android:adjustViewBounds="false"
+                android:filterTouchesWhenObscured="false"
+                android:fitsSystemWindows="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:hapticFeedbackEnabled="false"
+                android:isScrollContainer="false"
+                android:keepScreenOn="false"
+				android:layout_alignParentRight="false"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentTop="false"
+                android:layout_alignWithParentIfMissing="false"
+                android:layout_centerHorizontal="false"
+				android:layout_alignParentEnd="false"
+                android:layout_weight="1"
+                android:layout_alignParentBottom="false"
+				android:layout_centerInParent="false"
+				android:layout_centerVertical="false"
+				android:layout_alignParentLeft="false"
+				android:layout_marginRight="29dp" />
+
+			<ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:id="@+id/imageView8"
+                android:src="@drawable/blue"
+                android:layout_alignParentTop="false"
+                android:layout_alignParentRight="false"
+                android:layout_alignParentEnd="false"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentBottom="false"
+                android:layout_weight="1"
+				android:layout_marginLeft="29dp" />
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<com.github.lzyzsd.circleprogress.DonutProgress
+        android:id="@+id/circle_progress"
+        android:layout_marginLeft="50dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:donut_inner_bottom_text=""/>
+
+
+</RelativeLayout>
+

@@ -1,0 +1,51 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="8dp"
+    android:background="#ffffff">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+
+        <ImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="175dp"
+            android:layout_height="300dp"
+            android:layout_alignParentTop="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tab1"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="45dp"
+            android:padding="1.5dp"
+            android:background="#000000"
+            android:layout_marginBottom="50dp"
+            android:layout_alignParentEnd="false" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/thumbnail"
+            android:maxLines="3"
+            android:padding="8dp"
+            android:text="Reservoir."
+            android:textColor="#222"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:background="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:maxLines="3"
+            android:padding="8dp"
+            android:text="Pour ~50 ml of COLD tap water into the Reservoir. Water must cover ultrasonic horn."
+            android:textColor="#666"
+            android:textSize="17dp" />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

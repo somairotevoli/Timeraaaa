@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	tools:context="com.ultrasonicnanosilver.apps.timeraaaa.Warranty"
+	android:background="@drawable/carbon2a">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Warranty Code\n\nC43$bXAN"
+		android:id="@+id/textView7"
+		android:layout_alignParentBottom="false"
+		android:layout_centerHorizontal="true"
+		android:textAlignment="center"
+		android:textColor="@color/material_grey_900"
+		android:textSize="18sp"
+		android:layout_marginTop="70dp"
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+		android:layout_marginBottom="20dp"
+		android:textStyle="bold"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:text="IONEXX warrants the upper housing unit, lower housing unit, and atomizer will be free from defects in material. Warranty covers any water leaks around the power port and bottom of lower housing unit, which is sealed. Coverage further includes battery cables, electric conduits, and terminal connectors will be free from operational defects. Coverage under this Limited Lifetime Warranty applies only to the original purchaser. Severe body contours or impressions which exceed 1/4 inches in depth below the normal level of the product are covered.         \n\nIf a covered defect occurs, IONEXX will repair or replace, at our option, the defective product. If a replacement is required, IONEXX reserves the right to substitute material of equal or higher quality if a similar product is not available. Products will be replaced only once during the Limited Lifetime Warranty period. The Limited Lifetime Warranty period is valid from the date of original purchase and only covers one replacement during this period.         \n\nThe Limited Lifetime Warranty does not cover the following: imperfections of the unit housing; battery replacement; silver replacement; AC adapter replacement; Glass Jar replacement; transportation charges; any abuse or unsanitary product condition; or damage caused by improper use or care.         \n\nFailure to follow the manufacturer’s product instructions may void this Warranty. IONEXX does not warrant this product is suitable for any person’s medical condition or that they will protect against bacteria, viruses or other disease organisms. Incidental or consequential damages are also not recoverable for this product.         \n\nIONEXX reserves the right to refuse service and invalidate this Limited Lifetime Warranty when, upon inspection, the product is found to be in unsanitary condition, or when a defect is due to causes other than defective material and/or workmanship.         \n\nThe service terms stated in this Limited Lifetime Warranty shall be the consumer’s sole and exclusive remedy in the event of a defect in the product. IONEXX makes no warranty beyond what is contained in the Limited Lifetime warranty. IONEXX does not authorize any person to create for it any other obligation in connection with this warranty. The packaging that contains these items is not covered with this Limited Lifetime Warranty.         \n\nIf you are considering placing a Limited Lifetime Warranty service claim, please visit website IONEXX.COM and use contact link to submit claim. Please provide Warranty Code located in the Apple iOS or Android application. The application must be installed on customer mobile device in order to claim warranty. Warranty is void if application is not installed. Customer must provide transportation or accept freight charges to and from IONEXX for inspection of the warranted product (if requested) or to either return the product for repair or replacement."
+		android:id="@+id/textViewWarranty"
+		android:textSize="17sp"
+		android:lineSpacingMultiplier="1.2"
+		android:textColor="@color/material_grey_900"
+		android:scrollbars="vertical"
+		android:background="#99FFFFFF"
+		android:paddingLeft="10dp"
+		android:paddingRight="10dp"
+		android:layout_below="@+id/textView7"
+		android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+

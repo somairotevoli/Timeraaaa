@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".Analysis"
+	android:background="@drawable/carbon2a">
+
+	<ScrollView
+		android:id="@+id/scrollview"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="50dp"
+		android:layout_alignParentStart="true">
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+
+			<LinearLayout
+				android:id="@+id/linearLayout2"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_alignParentTop="true"
+				android:layout_centerHorizontal="true"
+				android:orientation="vertical"
+				android:layout_marginTop="15dp">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="match_parent">
+
+					<ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/target"
+                        android:id="@+id/imageView112"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+						android:layout_weight="1"
+						android:paddingLeft="5dp"
+						android:background="#44000000" />
+
+					<TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Post Operation"
+                        android:id="@+id/textView9"
+                        android:textColor="#F5F5F5"
+                        android:textStyle="normal|bold"
+                        android:textIsSelectable="false"
+                        android:textSize="18sp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+						android:background="#44000000"
+                        android:layout_marginRight="10dp"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+						android:layout_weight="1"
+						android:layout_marginTop="5dp" />
+				</LinearLayout>
+
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Silver hydrosol should be completely clear. If it is not, either a) contamination has occurred and further diligence is required in scrubbing wires and jar interior, b) change source of distilled water c) Generator has run beyond recommended run time. "
+					android:id="@+id/textView10"
+					android:layout_below="@+id/textView9"
+					android:layout_centerHorizontal="true"
+					android:textColor="#5D5D5D"
+					android:textSize="17sp"
+					android:layout_marginLeft="10dp"
+					android:lineSpacingMultiplier="1.1"
+					android:background="#99FFFFFF"
+					android:paddingLeft="15dp"
+					android:paddingRight="15dp"
+					android:layout_marginRight="10dp"
+					android:paddingBottom="15dp"
+					android:paddingTop="5dp"
+					android:layout_marginBottom="10dp" />
+
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="match_parent">
+
+					<ImageView
+						android:layout_width="50dp"
+						android:layout_height="match_parent"
+						android:src="@drawable/target"
+						android:id="@+id/imageView9"
+						android:layout_weight="1"
+						android:background="#44000000"
+						android:layout_marginTop="5dp"
+						android:layout_marginLeft="10dp"
+						android:paddingLeft="5dp" />
+
+					<TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Silver Wires"
+                        android:id="@+id/textView11"
+                        android:textColor="#F5F5F5"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:layout_below="@+id/textView10"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+						android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp"
+                        android:background="#44000000"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+						android:layout_weight="1" />
+				</LinearLayout>
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Oxidation is when a silver wire darkens after use. This should occur on only 1 silver electrode - the negative terminal. It is OK if oxidation occurs on both, however 1 is preferred. *The air ventilators in the reservoir assist in minimizing oxidation.  "
+					android:id="@+id/textView12"
+					android:layout_below="@+id/textView11"
+					android:layout_centerHorizontal="true"
+					android:textColor="#5D5D5D"
+					android:textSize="17sp"
+					android:lineSpacingMultiplier="1.1"
+					android:background="#99FFFFFF"
+					android:paddingLeft="15dp"
+					android:paddingRight="15dp"
+					android:layout_marginLeft="10dp"
+					android:layout_marginRight="10dp"
+					android:paddingBottom="15dp"
+					android:paddingTop="5dp"
+					android:layout_marginBottom="10dp" />
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="match_parent">
+
+					<ImageView
+						android:layout_width="50dp"
+						android:layout_height="match_parent"
+						android:src="@drawable/target"
+						android:id="@+id/imageView10"
+						android:layout_weight="1"
+						android:layout_marginLeft="10dp"
+						android:layout_marginTop="5dp"
+						android:paddingLeft="5dp"
+						android:background="#44000000" />
+
+					<TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Batteries"
+                        android:id="@+id/textView13"
+                        android:textColor="#F5F5F5"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:layout_below="@+id/textView12"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+						android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp"
+                        android:background="#44000000"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+						android:layout_weight="1" />
+				</LinearLayout>
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="When oxidation lessens on 1 or both of the silver electrodes, it is time to change the Batteries. 2x 9 VDC batteries are located inside cap. Batteries should last 2 + years with moderate use. See Maintenance section for battery replacement."
+					android:id="@+id/textView14"
+					android:layout_below="@+id/textView13"
+					android:layout_centerHorizontal="true"
+					android:textColor="#5D5D5D"
+					android:textSize="17sp"
+					android:layout_marginLeft="10dp"
+					android:lineSpacingMultiplier="1.1"
+					android:background="#99FFFFFF"
+					android:paddingLeft="15dp"
+					android:paddingRight="15dp"
+					android:layout_marginRight="10dp"
+					android:paddingTop="5dp"
+					android:paddingBottom="15dp"
+					android:layout_marginBottom="10dp" />
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="match_parent">
+
+					<ImageView
+						android:layout_width="50dp"
+						android:layout_height="match_parent"
+						android:src="@drawable/target"
+						android:id="@+id/imageView11"
+						android:layout_weight="1"
+						android:layout_marginLeft="10dp"
+						android:layout_marginTop="5dp"
+						android:paddingLeft="5dp"
+						android:background="#44000000" />
+
+					<TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Storage"
+                        android:id="@+id/textView15"
+                        android:textColor="#F5F5F5"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:layout_below="@+id/textView14"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginTop="5dp"
+						android:layout_marginRight="10dp"
+                        android:background="#44000000"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+						android:layout_weight="1" />
+				</LinearLayout>
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Store in Glass at room temperature and out of direct sunlight. Do not store in plastic."
+					android:id="@+id/textView16"
+					android:layout_below="@+id/textView15"
+					android:layout_centerHorizontal="true"
+					android:textColor="#5D5D5D"
+					android:textSize="17sp"
+					android:layout_marginLeft="10dp"
+					android:layout_marginBottom="10dp"
+					android:lineSpacingMultiplier="1.1"
+					android:background="#99FFFFFF"
+					android:paddingLeft="15dp"
+					android:paddingRight="15dp"
+					android:layout_marginRight="10dp"
+					android:paddingBottom="15dp"
+					android:paddingTop="5dp"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</RelativeLayout>
+

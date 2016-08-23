@@ -1,0 +1,51 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">#002bff </item>
+        <item name="android:actionBarTabTextStyle">@style/ActionBarTabText</item>
+    </style>
+    <style name="ActionBarTabText" parent="@android:style/Widget.Holo.ActionBar.TabText">
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:actionBarTabTextStyle">@style/ActionBarTabText.NoActionBar</item>
+    </style>
+    <style name="ActionBarTabText.NoActionBar" parent="@android:style/Widget.Holo.ActionBar.TabText">
+        <item name="android:textColor">#000000</item>
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:actionBarTabTextStyle">@style/ActionBarTabText.AppBarOverlay</item>
+    </style>
+    <style name="ActionBarTabText.AppBarOverlay" parent="@android:style/Widget.Holo.ActionBar.TabText">
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:actionBarTabTextStyle">@style/ActionBarTabText.PopupOverlay</item>
+    </style>
+
+    <style name="ActionBarTabText.PopupOverlay" parent="@android:style/Widget.Holo.ActionBar.TabText">
+        <item name="android:textColor">#000000</item>
+    </style>
+
+
+
+    <style name="normalText" parent="@android:style/TextAppearance">
+        <item name="android:textSize">55sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">#212121</item>
+    </style>
+
+    <style name="blinkText" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#FF0000</item>
+    </style>
+
+
+</resources>
