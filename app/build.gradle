@@ -1,5 +1,5 @@
 
-
+Buildscript {
 android {
     compileSdkVersion 23
     buildToolsVersion '24.0.1'
