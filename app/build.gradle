@@ -19,13 +19,13 @@ android {
     }
     productFlavors {
     }
-}
+
 repositories {
     maven {
         url "https://jitpack.io"
         google()
 }
-}
+
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
@@ -40,3 +40,4 @@ dependencies {
     compile 'com.github.lzyzsd:circleprogress:1.1.0@aar'
 }
 
+}
