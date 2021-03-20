@@ -19,7 +19,7 @@ android {
     }
     productFlavors {
     }
-}
+
 repositories {
     maven {
         url "https://jitpack.io"
