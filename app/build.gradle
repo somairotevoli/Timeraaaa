@@ -19,7 +19,7 @@ android {
     }
     productFlavors {
     }
-
+}
 repositories {
     maven {
         url "https://jitpack.io"
@@ -41,4 +41,4 @@ dependencies {
     compile 'com.github.lzyzsd:circleprogress:1.1.0@aar'
 }
 
-}
+
